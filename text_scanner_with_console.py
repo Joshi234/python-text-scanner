@@ -5,7 +5,7 @@ class Application(tk.Frame):
         super().__init__(master)
         self.master = master
         self.pack()
-        self.master.iconbitmap(r"C:\Users\User\Downloads\Fatcow-Farm-Fresh-File-extension-ttf.ico")
+
         self.create_widgets()
         self.master.title("Text Analyzer                                                                    made by Joshi234                                                                                       Version:0.1.1")
     def create_widgets(self):
